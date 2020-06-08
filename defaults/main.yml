@@ -1,5 +1,5 @@
 # Choose version
-elasticsearch_version: 5.x # or 2.x, 3.x
+elasticsearch_version: 7.x # or 5.x, 6.x
 
 # repo.
 elasticsearch_repo_path: "deb https://artifacts.elastic.co/packages/{{ elasticsearch_version }}/apt stable main"
@@ -28,7 +28,6 @@ elasticsearch_discovery_zen_ping_timeout: 3s
 elasticsearch_heap_size: 512g
 
 # http.
-elasticsearch_http_enabled: "true"
 elasticsearch_http_port: 9200
 elasticsearch_http_max_content_length: False
 
